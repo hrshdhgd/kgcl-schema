@@ -1,0 +1,52 @@
+{
+   "_comments": "Auto generated from kgcl_schema.yaml by jsonldcontextgen.py version: 0.1.1\n    Generation date: 2022-09-14T09:32:10\n    Schema: kgcl-schema\n    metamodel version: 1.7.0\n    model version: None\n    \n    id: https://w3id.org/hrshdhgd/kgcl-schema\n    description: A linkml based schema for Knowledge Graph Change Language (KGCL).\n    license: MIT\n    ",
+   "@context": {
+      "PATO": {
+         "@id": "http://purl.obolibrary.org/obo/PATO_",
+         "@prefix": true
+      },
+      "TEMP": "https://example.org/TEMP/",
+      "biolink": "https://w3id.org/biolink/",
+      "example": "https://example.org/",
+      "kgcl_schema": "https://w3id.org/hrshdhgd/kgcl-schema/",
+      "linkml": "https://w3id.org/linkml/",
+      "schema": "http://schema.org/",
+      "sdo": "http://example.org/sdo/",
+      "wikidata": "http://www.wikidata.org/entity/",
+      "@vocab": "https://w3id.org/hrshdhgd/kgcl-schema/",
+      "age": {
+         "@id": "TEMP:age"
+      },
+      "description": {
+         "@id": "TEMP:description"
+      },
+      "gender": {
+         "@id": "TEMP:gender"
+      },
+      "has_medical_history": {
+         "@id": "TEMP:has_medical_history"
+      },
+      "id": "@id",
+      "name": {
+         "@id": "TEMP:name"
+      },
+      "Event": {
+         "@id": "TEMP:Event"
+      },
+      "ForProfit": {
+         "@id": "TEMP:ForProfit"
+      },
+      "MedicalEvent": {
+         "@id": "TEMP:MedicalEvent"
+      },
+      "NonProfit": {
+         "@id": "TEMP:NonProfit"
+      },
+      "Organization": {
+         "@id": "TEMP:Organization"
+      },
+      "Person": {
+         "@id": "TEMP:Person"
+      }
+   }
+}
