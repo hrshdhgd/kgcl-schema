@@ -9,19 +9,19 @@ prefixes:
   TEMP:
     prefix_prefix: TEMP
     prefix_reference: https://example.org/TEMP/
-  wikidata:
-    prefix_prefix: wikidata
-    prefix_reference: http://www.wikidata.org/entity/
   sdo:
     prefix_prefix: sdo
     prefix_reference: http://example.org/sdo/
+  wikidata:
+    prefix_prefix: wikidata
+    prefix_reference: http://www.wikidata.org/entity/
 default_prefix: TEMP
 default_range: string
 subsets:
-  b:
-    name: b
   a:
     name: a
+  b:
+    name: b
 slots:
   id:
     name: id

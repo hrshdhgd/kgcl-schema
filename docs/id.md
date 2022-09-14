@@ -1,8 +1,6 @@
 # Slot: id
-_any identifier_
 
-
-URI: [https://example.org/TEMP/id](https://example.org/TEMP/id)
+URI: [https://w3id.org/kgcl_schema/basics/id](https://w3id.org/kgcl_schema/basics/id)
 
 
 
@@ -14,11 +12,9 @@ URI: [https://example.org/TEMP/id](https://example.org/TEMP/id)
 ## Properties
 
 * Range: [xsd:string](xsd:string)
-* Multivalued: False
+* Multivalued: None
 
 
-
-* Required: True
 
 
 
@@ -35,7 +31,7 @@ URI: [https://example.org/TEMP/id](https://example.org/TEMP/id)
 ### Schema Source
 
 
-* from schema: TEMP
+* from schema: https://w3id.org/kgcl_schema/basics
 
 
 
@@ -45,19 +41,16 @@ URI: [https://example.org/TEMP/id](https://example.org/TEMP/id)
 <details>
 ```yaml
 name: id
-description: any identifier
-from_schema: TEMP
-exact_mappings:
-- sdo:identifier
-- sdo:identifier
+from_schema: https://w3id.org/kgcl_schema/basics
 rank: 1000
-multivalued: false
 identifier: true
 alias: id
 domain_of:
-- Person
+- change
+- activity
+- agent
+- node
 range: string
-required: true
 
 ```
 </details>

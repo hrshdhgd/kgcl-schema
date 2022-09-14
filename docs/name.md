@@ -1,6 +1,6 @@
 # Slot: name
 
-URI: [https://example.org/TEMP/name](https://example.org/TEMP/name)
+URI: [om:name](om:name)
 
 
 
@@ -31,7 +31,7 @@ URI: [https://example.org/TEMP/name](https://example.org/TEMP/name)
 ### Schema Source
 
 
-* from schema: TEMP
+* from schema: https://w3id.org/kgcl_schema/ontology
 
 
 
@@ -41,12 +41,12 @@ URI: [https://example.org/TEMP/name](https://example.org/TEMP/name)
 <details>
 ```yaml
 name: name
-from_schema: TEMP
+from_schema: https://w3id.org/kgcl_schema/ontology
 rank: 1000
 alias: name
 domain_of:
-- Person
-- Organization
+- node creation
+- node
 range: string
 
 ```

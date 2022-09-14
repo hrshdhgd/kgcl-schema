@@ -1,29 +1,50 @@
 {
+   "IAO": "http://purl.obolibrary.org/obo/IAO_",
    "PATO": "http://purl.obolibrary.org/obo/PATO_",
-   "TEMP": "https://example.org/TEMP/",
+   "basics": "https://w3id.org/kgcl_schema/basics/",
    "biolink": "https://w3id.org/biolink/",
+   "dcterms": "http://purl.org/dc/terms/",
    "example": "https://example.org/",
-   "kgcl_schema": "https://w3id.org/hrshdhgd/kgcl-schema/",
+   "kgcl_schema": "https://w3id.org/kgcl-schema/",
    "linkml": "https://w3id.org/linkml/",
+   "oio": "http://www.geneontology.org/formats/oboInOwl#",
+   "om": "http://w3id.org/kgcl_schema/om/",
+   "owl": "http://www.w3.org/2002/07/owl#",
+   "prov": "http://www.w3.org/ns/prov#",
+   "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+   "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
    "schema": "http://schema.org/",
-   "sdo": "http://example.org/sdo/",
-   "wikidata": "http://www.wikidata.org/entity/",
-   "Event": {
-      "@id": "TEMP:Event"
+   "Activity": {
+      "@id": "prov:Activity"
    },
-   "ForProfit": {
-      "@id": "TEMP:ForProfit"
+   "Agent": {
+      "@id": "prov:Agent"
    },
-   "MedicalEvent": {
-      "@id": "TEMP:MedicalEvent"
+   "Annotation": {
+      "@id": "om:Annotation"
    },
-   "NonProfit": {
-      "@id": "TEMP:NonProfit"
+   "ClassNode": {
+      "@id": "owl:Class"
    },
-   "Organization": {
-      "@id": "TEMP:Organization"
+   "Edge": {
+      "@id": "om:Edge"
    },
-   "Person": {
-      "@id": "TEMP:Person"
+   "InstanceNode": {
+      "@id": "owl:NamedIndividual"
+   },
+   "LogicalDefinition": {
+      "@id": "om:LogicalDefinition"
+   },
+   "Node": {
+      "@id": "om:Node"
+   },
+   "OntologyElement": {
+      "@id": "om:OntologyElement"
+   },
+   "OntologySubset": {
+      "@id": "om:OntologySubset"
+   },
+   "PropertyValue": {
+      "@id": "om:PropertyValue"
    }
 }

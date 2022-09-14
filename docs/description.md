@@ -1,8 +1,6 @@
 # Slot: description
-_a textual description_
 
-
-URI: [https://example.org/TEMP/description](https://example.org/TEMP/description)
+URI: [dcterms:description](dcterms:description)
 
 
 
@@ -14,7 +12,7 @@ URI: [https://example.org/TEMP/description](https://example.org/TEMP/description
 ## Properties
 
 * Range: [xsd:string](xsd:string)
-* Multivalued: False
+* Multivalued: None
 
 
 
@@ -28,21 +26,12 @@ URI: [https://example.org/TEMP/description](https://example.org/TEMP/description
 
 
 
-### Annotations
-
-| property | value |
-| --- | --- |
-| _if_missing |  |
-| special | my_val |
-| special2 | my_val2 |
-
-
 
 
 ### Schema Source
 
 
-* from schema: TEMP
+* from schema: https://w3id.org/kgcl_schema/basics
 
 
 
@@ -52,23 +41,13 @@ URI: [https://example.org/TEMP/description](https://example.org/TEMP/description
 <details>
 ```yaml
 name: description
-annotations:
-  special:
-    tag: special
-    value: my_val
-  special2:
-    tag: special2
-    value: my_val2
-description: a textual description
-from_schema: TEMP
-exact_mappings:
-- sdo:description
-- sdo:description
+from_schema: https://w3id.org/kgcl_schema/basics
 rank: 1000
-multivalued: false
+slot_uri: dcterms:description
 alias: description
+domain_of:
+- activity
 range: string
-required: false
 
 ```
 </details>
