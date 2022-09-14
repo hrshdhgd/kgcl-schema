@@ -7,7 +7,7 @@ from typing import List
 
 import click
 from bioregistry import parse_iri, get_preferred_prefix, curie_to_str
-from kgcl_schema.datamodel.kgcl import (Change, ClassCreation, EdgeCreation,
+from kgcl_schema.datamodel.kgcl_schema import (Change, ClassCreation, EdgeCreation,
                                         EdgeDeletion, NewSynonym,
                                         NodeAnnotationChange, NodeCreation,
                                         NodeDeepening, NodeDeletion, NodeMove,

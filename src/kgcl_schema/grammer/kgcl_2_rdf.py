@@ -2,8 +2,8 @@
 
 """KGCL RDF-related operations."""
 from deprecated.classic import deprecated
-from kgcl_schema.grammar.parser import parse
-from kgcl_schema.datamodel.kgcl import (ClassCreation, EdgeCreation, EdgeDeletion,
+from kgcl_schema.grammer.parser import parse
+from kgcl_schema.datamodel.kgcl_schema import (ClassCreation, EdgeCreation, EdgeDeletion,
                                         NewSynonym, NodeAnnotationChange, NodeCreation,
                                         NodeDeepening, NodeDeletion, NodeMove,
                                         NodeObsoletion, NodeRename, NodeShallowing,
