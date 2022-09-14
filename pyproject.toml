@@ -2,7 +2,10 @@
 name = "kgcl_schema"
 version = "0.1.0"
 description = "Enter description of your project here"
-authors = ["Harshad Hegde <hhegde@lbl.gov>"]
+authors = [
+    "Chris Mungall <cjmungall@lbl.gov>",
+    "Harshad Hegde <hhegde@lbl.gov>"
+    ]
 license = "MIT"
 readme = "README.md"
 include = ["README.md", "src/kgcl_schema/schema", "project"]
