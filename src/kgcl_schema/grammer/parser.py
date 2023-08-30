@@ -164,10 +164,17 @@ def parse_create_synonym(tree, id):
 def parse_create_class(tree, id):
     """Create new class."""
     term_id_token = extract(tree, "id")
+    label_token = extract(tree, "label")
     entity, representation = get_entity_representation(term_id_token)
-
+    language_token = extract(tree, "language")
+    
     return ClassCreation(
-        id=id, node_id=entity, about_node_representation=representation
+        id=id,
+        node_id=entity,
+        about_node_representation=representation,
+        about_node=entity,
+        name=label_token,
+        language=language_token,
     )
 
 

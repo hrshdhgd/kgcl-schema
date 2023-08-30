@@ -18,7 +18,7 @@
 rename : "rename" _WS [id _WS "from" _WS] old_label ["@" old_language] _WS ("to"|"as"|"->") _WS new_label ["@" new_language]
 
 create : "create node" _WS id _WS label ["@" language]
-create_class: "create" _WS id
+create_class: "create class" _WS id _WS label ["@" language]
 
 create_synonym: "create" _WS [synonym_qualifier _WS] "synonym" _WS synonym ["@" language] _WS "for" _WS entity
 synonym_qualifier : /exact|narrow|broad|related/
